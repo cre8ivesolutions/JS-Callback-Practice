@@ -4,7 +4,7 @@ function newItem(url){
         item.remove()
         let inventoryItem = document.createElement('img')
         inventoryItem.src = url;
-        inventory.append(inventoryItem)  
+        inventory.append(inventoryItem)   
     })
     return item
 }

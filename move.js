@@ -69,7 +69,7 @@ function move(element) {
     }
     return {
         to: moveToCoordinates,
-        withArrowKeys: moveWithArrowKeys
+        withArrowKeys: moveWithArrowKeys 
     }
 }
 
